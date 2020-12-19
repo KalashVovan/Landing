@@ -177,7 +177,7 @@ html, body {
 	padding: 16px 24px;
 	border: 4px solid #f1f1f1;
 	outline: none;
-	width: 387px;
+	width: 350px;
 }
 
 .Form_button {
@@ -204,6 +204,38 @@ html, body {
 
 .List__image .Image {
 	border-radius: 12px;
+}
+
+.Section__card {
+	width: 200px;
+	display: inline-block;
+}
+
+.Section__card_text {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.Card__info {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+.Card__title_top {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 80px;
+}
+
+.Card__title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+.Card__photo {
+	display: inline-block;
 }
 
 .List__title {
