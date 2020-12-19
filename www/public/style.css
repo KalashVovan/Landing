@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+@@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
 
 html, body {
 	margin: 0;
@@ -7,52 +7,27 @@ html, body {
 }
 
 .Landing {
-	width: 100%;
 	font-family: 'Roboto', sans-serif;
-	color: #002460;
+	width: 100%;
+	color: #012461;
 }
 
 .Landing__header {
-	margin-bottom: 96px;
-	background-color: #002460;
-	background-image: url("./images/background_image.png");
-	background-repeat: no-repeat;
+	background-color: #012461;
+	margin-bottom: 94px;
+	height: 500px;
+	background-image: url('./images/background_image.png');
 	background-size: cover;
 }
 
 .Header__section {
 	width: 940px;
-	padding: 0 42px;
 	margin: 0 auto;
+	padding: 0 42px;
 }
 
 .Header__menu {
-	width: 100%;
-	padding-top: 24px;
-	padding-bottom: 24px;
-}
-
-.Header__content {
-
-}
-
-.Content__info {
-	vertical-align: top;
-	display: inline-block;
-}
-
-.Content__text {
-	color: white;
-}
-
-.Content__button {}
-
-.Button {
-	background-color: white;
-}
-
-.Content__image {
-	display: inline-block;
+	padding: 24px 0;
 }
 
 .Menu__logotype {
@@ -60,23 +35,67 @@ html, body {
 }
 
 .Menu__list {
+	margin-top: 32px;
 	display: inline-block;
 	float: right;
-	padding-top: 32px;
 }
 
+
 .Menu__link {
-	color: white;
 	font-weight: 900;
 	font-size: 24px;
 	margin-left: 24px;
+	color: white;
+	cursor: pointer;
 	opacity: .75;
 	transition: opacity ease .25s;
-	cursor: pointer;
 }
 
 .Menu__link:hover {
 	opacity: 1;
+}
+
+
+.Header__content {}
+.Content__info {
+	vertical-align: top;
+	display: inline-block;
+}
+.Content__text {
+	font-size: 60px;
+	font-weight: 1000;
+	width: 400px;
+	color: white;
+	margin-right: 100px;
+}
+.Content__button {
+	text-align: center;
+	margin-top: 30px;
+	background-color: white;
+	cursor: pointer;
+	border-radius: 12px;
+	height: 80px;
+	width: 200px;
+	opacity: 1;
+	transition: opacity ease .25s;
+	border: 2px solid black;
+}
+
+.Content_button:hover {
+	opacity: .75;
+}
+
+.Button {
+	display: inline-block;
+	margin-top: 20px;
+	color: #012461;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.Content__image {
+	vertical-align: top;
+	display: inline-block;
 }
 
 .Landing__content {
@@ -85,23 +104,90 @@ html, body {
 
 .Content__section {
 	width: 940px;
-	padding: 0 42px;
 	margin: 0 auto;
+	padding: 0 42px;
 	margin-bottom: 96px;
 }
 
 .Section__title {
-	font-size: 36px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 34px;
 	font-weight: 900;
 	margin-bottom: 24px;
 }
 
 .Section__text {
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 }
 
 .Section__lists {}
+
+.Section_table {}
+
+.Table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.Tr {
+	width: 100%
+}
+
+.Th {
+	padding: 16px 24px;
+	font-size: 24px;
+	text-align: left;
+	border: 4px solid #f1f1f1;
+	width: 50%;
+}
+
+.Td {
+    padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+}
+
+.Secion_form {}
+
+.Form_item {
+	display: inline-block;
+	margin-right: 24px;
+}
+
+.Form_item_end {
+	margin-right: 0;
+}
+
+.Form_label {
+	display: block;
+	font-size: 20px;
+	font-weight: 900;
+	margin-bottom: 8px;
+}
+
+.Form_imput {
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+	outline: none;
+	width: 330px;
+}
+
+.Form_select {
+	padding: 16px 24px;
+	border: 4px solid #f1f1f1;
+	outline: none;
+	width: 387px;
+}
+
+.Form_button {
+	outline: none;
+	border: 4px solid #002460;
+	background-color: #002460;
+	color: white;
+	padding: 16px 24px;
+	font-weight: 900;
+}
 
 .List__block {
 	display: inline-block;
@@ -116,14 +202,14 @@ html, body {
 	margin-bottom: 16px;
 }
 
-.List__image img {
+.List__image .Image {
 	border-radius: 12px;
 }
 
 .List__title {
-	margin-bottom: 8px;
 	font-size: 24px;
 	font-weight: 700;
+	margin-bottom: 8px;
 	padding: 0 16px;
 }
 
@@ -134,5 +220,5 @@ html, body {
 }
 
 .Landing__footer {
-	background-color: #002460;
+	background-color: #012461;
 }
